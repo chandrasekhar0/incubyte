@@ -64,6 +64,7 @@ export const add = (inputString: string) => {
 //valid case 
 // export default add;
 // console.log(add('1,2'));
+//console.log(add(""))
 // console.log(add('1\n2\n3'));
 // console.log(add('//;\n1;2;3'));
 // console.log(add('//:\n1:2:3'));
