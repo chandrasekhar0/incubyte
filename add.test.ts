@@ -12,4 +12,7 @@ describe("test cases related to add method",()=>{
   test('takes input of type String pattern "//;\n1;2;9" and return addition of digits by splitting given string by //[delimiter]', () => {
     expect(add("//;\n1;2;9")).toBe(12);
   })
+  test('takes input of type String pattern ""', () => {
+    expect(add("")).toBe(0);
+  })
 })
