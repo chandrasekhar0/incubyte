@@ -15,4 +15,7 @@ describe("test cases related to add method",()=>{
   test('takes input of type String pattern ""', () => {
     expect(add("")).toBe(0);
   })
+  test('takes input of type String pattern "-1,-8"', () => {
+    expect(add("-1,-8")).toEqual("Input has invalid values, negative values: "+[-1,-8]);
+  })
 })
