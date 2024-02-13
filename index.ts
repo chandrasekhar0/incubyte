@@ -60,11 +60,14 @@ export const add = (inputString: string) => {
         return error;
     }
 }
+
+//valid case 
 // export default add;
 // console.log(add('1,2'));
 // console.log(add('1\n2\n3'));
- console.log(add('//;\n1;2;3'));
+// console.log(add('//;\n1;2;3'));
 // console.log(add('//:\n1:2:3'));
+
 // // Invalid scenarios
 // console.log(add('\n1\n2'));
 // console.log(add('1\n2\n'));
@@ -73,5 +76,3 @@ export const add = (inputString: string) => {
 // console.log(add('1\n-2\n3\n-3\n-5'));
 // console.log(add('//;\n1;-2;3'));
 // console.log(add('//;\n1-2;3'));
-
-// module.exports = {add}
